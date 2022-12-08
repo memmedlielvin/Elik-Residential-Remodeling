@@ -1,0 +1,1278 @@
+@media screen and (min-width: 768px) {
+  main {
+    width: 100%;
+    background-color: #262626;
+  }
+  main #nav-for-mobil-head {
+    display: none;
+  }
+  main #nav-for-mobil {
+    display: none;
+  }
+  main footer {
+    width: 88%;
+    padding: 1rem 0;
+    margin: auto;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer > div:nth-child(1) {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  main footer > div:nth-child(1) h1 {
+    font-size: 3rem;
+    color: #9a8a78;
+    margin-bottom: 2rem;
+  }
+  main footer > div:nth-child(1) a {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  main footer > div:nth-child(1) a i {
+    font-size: 2.2rem;
+    color: #665c51;
+  }
+  main footer > div:nth-child(1) a span {
+    font-size: 1rem;
+    margin-left: 2rem;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+  }
+  main footer > div:nth-child(1) p {
+    margin-top: 2rem;
+    color: #d4cbc1;
+  }
+  main footer form {
+    width: 40%;
+    padding: 1rem;
+  }
+  main footer form > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(1) label {
+    width: 50%;
+    font-size: 1.2rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(1) label input {
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  main footer form > div:nth-child(1) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(2) {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(2) label {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(2) label input {
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  main footer form > div:nth-child(2) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(3) {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(3) label {
+    width: 50%;
+    font-size: 1.2rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(3) label input {
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  main footer form > div:nth-child(3) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(4) {
+    margin-top: 2rem;
+    width: 95%;
+  }
+  main footer form > div:nth-child(4) input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #9a8a78;
+    background-color: #262626;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+    color: #9a8a78;
+    transition: all 0.6s;
+  }
+  main footer form > div:nth-child(4) input:hover {
+    background-color: #9a8a78;
+    color: #262626;
+    cursor: pointer;
+  }
+  main footer > div:nth-child(3) {
+    width: 15%;
+  }
+  main footer > div:nth-child(3) ul {
+    width: 100%;
+  }
+  main footer > div:nth-child(3) ul li:not(:last-child) {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  main footer > div:nth-child(3) ul li:not(:last-child) a {
+    display: inline-block;
+    color: #9a8a78;
+    padding: 5px 10px;
+    transition: all 0.6s;
+    font-size: 0.9rem;
+  }
+  main footer > div:nth-child(3) ul li:not(:last-child) a:hover {
+    color: #ccc4ba;
+    text-shadow: 0 0 5px white;
+  }
+  main footer > div:nth-child(3) ul li:last-child {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  main footer > div:nth-child(3) ul li:last-child a {
+    display: block;
+    text-align: center;
+    background-color: #9a8a78;
+    color: #262626;
+    padding: 10px 10px;
+    transition: all 0.6s;
+  }
+  main footer > div:nth-child(3) ul li:last-child a:hover {
+    background-color: #cfc7be;
+  }
+  main footer #footer-for-mobil {
+    display: none;
+  }
+  main #social-network {
+    position: fixed;
+    left: 10px;
+    bottom: 50px;
+    width: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main #social-network a {
+    margin-top: 1.5rem;
+  }
+  main #social-network a i {
+    display: inline-block;
+    color: white;
+    transition: all 0.6s;
+  }
+  main #social-network a i:hover {
+    color: #ccc4ba;
+    text-shadow: 0 0 5px white;
+  }
+  main #arrow-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 6rem;
+  }
+  main #arrow-up a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #arrow-up a i {
+    font-size: 2.5rem;
+    color: #c4b19c;
+    -webkit-animation: arrow-light 1s ease infinite;
+            animation: arrow-light 1s ease infinite;
+  }
+  @-webkit-keyframes arrow-light {
+    0% {
+      text-shadow: 0 0 2px #ddd;
+    }
+    25% {
+      text-shadow: 0 -2px 2px #ddd;
+    }
+    50% {
+      text-shadow: 0 -5px 2px #ddd;
+    }
+    75% {
+      text-shadow: 0 -8px 2px #ddd;
+    }
+    100% {
+      text-shadow: 0 0 5px #ddd;
+    }
+  }
+  @keyframes arrow-light {
+    0% {
+      text-shadow: 0 0 2px #ddd;
+    }
+    25% {
+      text-shadow: 0 -2px 2px #ddd;
+    }
+    50% {
+      text-shadow: 0 -5px 2px #ddd;
+    }
+    75% {
+      text-shadow: 0 -8px 2px #ddd;
+    }
+    100% {
+      text-shadow: 0 0 5px #ddd;
+    }
+  }
+  main #lets-chat {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(154, 138, 120, 0.8);
+    position: fixed;
+    right: 2rem;
+    bottom: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px #9a8a78;
+  }
+  main #lets-chat > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  main #lets-chat > div i {
+    font-size: 1.5rem;
+    color: #262626;
+  }
+  main #lets-chat > div span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #262626;
+  }
+  main #chat-box {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 25%;
+    height: 70vh;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 0 10px #86796b;
+  }
+  main #chat-box .chat-box-top {
+    width: 100%;
+    height: 15%;
+    padding: 0 1rem;
+    background-color: rgba(92, 84, 74, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main #chat-box .chat-box-top > div p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+  }
+  main #chat-box .chat-box-top > div p:last-child {
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 2px;
+  }
+  main #chat-box .chat-box-top > div p:last-child span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #43b72a;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  main #chat-box .chat-box-top i {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  main #chat-box .chat-box-center {
+    width: 100%;
+    height: 75%;
+    padding: 1rem;
+    background-color: rgba(221, 221, 221, 0.8);
+    overflow-y: auto;
+  }
+  main #chat-box .chat-box-bottom {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  main #chat-box .chat-box-bottom form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #chat-box .chat-box-bottom form #input-text {
+    width: 86%;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  main #chat-box .chat-box-bottom form #input-text::-moz-placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form #input-text:-ms-input-placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form #input-text::placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form i {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #707070;
+    cursor: pointer;
+  }
+  main #chat-box .chat-box-bottom form > div {
+    width: 7%;
+    height: 100%;
+    position: relative;
+  }
+  main #chat-box .chat-box-bottom form > div #input-file {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+  }
+  main #chat-box .chat-box-bottom form > div #attach {
+    width: 80%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  main #chat-box .chat-box-bottom form > div #send-message-icon {
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  main {
+    width: 100%;
+    background-color: #262626;
+  }
+  main #nav-for-pc {
+    display: none;
+  }
+  main #nav-for-mobil-head {
+    width: 100%;
+    background-color: #262626;
+  }
+  main #nav-for-mobil-head > a {
+    display: block;
+    padding: 20px 0;
+    color: #9a8a78;
+    text-align: center;
+    border-bottom: 1px solid #9a8a78;
+  }
+  main #nav-for-mobil-head > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  main #nav-for-mobil-head > div h1 a {
+    color: #9a8a78;
+  }
+  main #nav-for-mobil-head > div i {
+    font-size: 2rem;
+    color: #9a8a78;
+  }
+  main #nav-for-mobil {
+    width: 100%;
+    display: none;
+  }
+  main #nav-for-mobil ul {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main #nav-for-mobil ul li {
+    width: 50%;
+  }
+  main #nav-for-mobil ul li a {
+    display: block;
+    color: white;
+  }
+  main footer {
+    width: 95%;
+    padding: 1rem 1rem;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  main footer > div:nth-child(1) {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    order: 2;
+  }
+  main footer > div:nth-child(1) h1 {
+    font-size: 2rem;
+    color: #9a8a78;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  main footer > div:nth-child(1) a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  main footer > div:nth-child(1) a i {
+    font-size: 3rem;
+    color: #665c51;
+  }
+  main footer > div:nth-child(1) a span {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #f1dfca;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+  }
+  main footer > div:nth-child(1) p {
+    display: none;
+    margin-top: 2rem;
+    color: #d4cbc1;
+  }
+  main footer form {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+  }
+  main footer form > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(1) label {
+    width: 49%;
+    font-size: 1rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(1) label input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+  }
+  main footer form > div:nth-child(1) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(2) {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(2) label {
+    width: 100%;
+    font-size: 1rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(2) label input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+  }
+  main footer form > div:nth-child(2) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(3) {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(3) label {
+    width: 49%;
+    font-size: 1rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(3) label input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+  }
+  main footer form > div:nth-child(3) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(4) {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  main footer form > div:nth-child(4) input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #9a8a78;
+    background-color: #262626;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+    color: #9a8a78;
+    transition: all 0.6s;
+  }
+  main footer form > div:nth-child(4) input:hover {
+    background-color: #9a8a78;
+    color: #262626;
+    cursor: pointer;
+  }
+  main footer > div:nth-child(3) {
+    display: none;
+  }
+  main footer #footer-for-mobil {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main footer #footer-for-mobil div {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  main footer #footer-for-mobil div a {
+    margin-top: 0.5rem;
+  }
+  main footer #footer-for-mobil div a i {
+    font-size: 1.2rem;
+    color: #ccc4ba;
+    text-shadow: 0 0 2px white;
+  }
+  main footer #footer-for-mobil p {
+    width: 88%;
+    line-height: 2rem;
+    color: #ccc4ba;
+  }
+  main #social-network {
+    display: none;
+  }
+  main #arrow-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+  }
+  main #arrow-up a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #arrow-up a i {
+    font-size: 2.5rem;
+    color: #c4b19c;
+    -webkit-animation: arrow-light 1s ease infinite;
+            animation: arrow-light 1s ease infinite;
+  }
+  @-webkit-keyframes arrow-light {
+    0% {
+      text-shadow: 0 0 2px #ddd;
+    }
+    25% {
+      text-shadow: 0 -2px 2px #ddd;
+    }
+    50% {
+      text-shadow: 0 -5px 2px #ddd;
+    }
+    75% {
+      text-shadow: 0 -8px 2px #ddd;
+    }
+    100% {
+      text-shadow: 0 0 5px #ddd;
+    }
+  }
+  @keyframes arrow-light {
+    0% {
+      text-shadow: 0 0 2px #ddd;
+    }
+    25% {
+      text-shadow: 0 -2px 2px #ddd;
+    }
+    50% {
+      text-shadow: 0 -5px 2px #ddd;
+    }
+    75% {
+      text-shadow: 0 -8px 2px #ddd;
+    }
+    100% {
+      text-shadow: 0 0 5px #ddd;
+    }
+  }
+  main #lets-chat {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(154, 138, 120, 0.8);
+    position: fixed;
+    right: 2rem;
+    bottom: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px #9a8a78;
+  }
+  main #lets-chat > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  main #lets-chat > div i {
+    font-size: 1.5rem;
+    color: #262626;
+  }
+  main #lets-chat > div span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #262626;
+  }
+  main #chat-box {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 25%;
+    height: 70vh;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 0 10px #86796b;
+  }
+  main #chat-box .chat-box-top {
+    width: 100%;
+    height: 15%;
+    padding: 0 1rem;
+    background-color: rgba(92, 84, 74, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main #chat-box .chat-box-top > div p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+  }
+  main #chat-box .chat-box-top > div p:last-child {
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 2px;
+  }
+  main #chat-box .chat-box-top > div p:last-child span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #43b72a;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  main #chat-box .chat-box-top i {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  main #chat-box .chat-box-center {
+    width: 100%;
+    height: 75%;
+    padding: 1rem;
+    background-color: rgba(221, 221, 221, 0.8);
+    overflow-y: auto;
+  }
+  main #chat-box .chat-box-bottom {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  main #chat-box .chat-box-bottom form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #chat-box .chat-box-bottom form #input-text {
+    width: 86%;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  main #chat-box .chat-box-bottom form #input-text::-moz-placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form #input-text:-ms-input-placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form #input-text::placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form i {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #707070;
+    cursor: pointer;
+  }
+  main #chat-box .chat-box-bottom form > div {
+    width: 7%;
+    height: 100%;
+    position: relative;
+  }
+  main #chat-box .chat-box-bottom form > div #input-file {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+  }
+  main #chat-box .chat-box-bottom form > div #attach {
+    width: 80%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  main #chat-box .chat-box-bottom form > div #send-message-icon {
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  main {
+    width: 100%;
+    background-color: #262626;
+  }
+  main #nav-for-pc {
+    display: none;
+  }
+  main #nav-for-mobil-head {
+    width: 100%;
+    background-color: #262626;
+  }
+  main #nav-for-mobil-head > a {
+    display: block;
+    padding: 20px 0;
+    color: #9a8a78;
+    text-align: center;
+    border-bottom: 1px solid #9a8a78;
+  }
+  main #nav-for-mobil-head > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  main #nav-for-mobil-head > div h1 a {
+    color: #9a8a78;
+  }
+  main #nav-for-mobil-head > div i {
+    font-size: 2rem;
+    color: #9a8a78;
+  }
+  main #nav-for-mobil {
+    width: 100%;
+    height: 0;
+    background-color: #262626;
+    transition: all 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  main #nav-for-mobil #closebar {
+    float: right;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-right: 2rem;
+    color: #9a8a78;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.3s;
+  }
+  main #nav-for-mobil ul {
+    clear: right;
+    opacity: 0;
+    height: 50vh;
+    margin-top: 20vh;
+    transition: all 0.3s;
+    transition-delay: 0.3s;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  main #nav-for-mobil ul li {
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #9a8a78;
+    margin-top: 1rem;
+  }
+  main #nav-for-mobil ul li a {
+    display: block;
+    padding: 1rem 0;
+    color: white;
+  }
+  main footer {
+    width: 95%;
+    padding: 1rem 1rem;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  main footer > div:nth-child(1) {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    order: 2;
+  }
+  main footer > div:nth-child(1) h1 {
+    font-size: 2rem;
+    color: #9a8a78;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  main footer > div:nth-child(1) a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  main footer > div:nth-child(1) a i {
+    font-size: 3rem;
+    color: #665c51;
+  }
+  main footer > div:nth-child(1) a span {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #f1dfca;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+  }
+  main footer > div:nth-child(1) p {
+    display: none;
+    margin-top: 2rem;
+    color: #d4cbc1;
+  }
+  main footer form {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+  }
+  main footer form > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(1) label {
+    width: 49%;
+    font-size: 1rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(1) label input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+  }
+  main footer form > div:nth-child(1) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(2) {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(2) label {
+    width: 100%;
+    font-size: 1rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(2) label input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+  }
+  main footer form > div:nth-child(2) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(3) {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer form > div:nth-child(3) label {
+    width: 49%;
+    font-size: 1rem;
+    color: #9a8a78;
+  }
+  main footer form > div:nth-child(3) label input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #262626;
+    border-bottom: 1px solid #9a8a78;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+  }
+  main footer form > div:nth-child(3) label input:focus {
+    border-bottom: 2px solid white;
+  }
+  main footer form > div:nth-child(4) {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  main footer form > div:nth-child(4) input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #9a8a78;
+    background-color: #262626;
+    padding: 10px 0;
+    color: white;
+    font-size: 1rem;
+    color: #9a8a78;
+    transition: all 0.6s;
+  }
+  main footer form > div:nth-child(4) input:hover {
+    background-color: #9a8a78;
+    color: #262626;
+    cursor: pointer;
+  }
+  main footer > div:nth-child(3) {
+    display: none;
+  }
+  main footer #footer-for-mobil {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main footer #footer-for-mobil div {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  main footer #footer-for-mobil div a {
+    margin-top: 0.5rem;
+  }
+  main footer #footer-for-mobil div a i {
+    font-size: 1.2rem;
+    color: #ccc4ba;
+    text-shadow: 0 0 2px white;
+  }
+  main footer #footer-for-mobil p {
+    width: 88%;
+    line-height: 2rem;
+    color: #ccc4ba;
+  }
+  main #social-network {
+    display: none;
+  }
+  main #arrow-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 5rem;
+  }
+  main #arrow-up a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #arrow-up a i {
+    font-size: 2.5rem;
+    color: #c4b19c;
+    -webkit-animation: arrow-light 1s ease infinite;
+            animation: arrow-light 1s ease infinite;
+  }
+  @-webkit-keyframes arrow-light {
+    0% {
+      text-shadow: 0 0 2px #ddd;
+    }
+    25% {
+      text-shadow: 0 -2px 2px #ddd;
+    }
+    50% {
+      text-shadow: 0 -5px 2px #ddd;
+    }
+    75% {
+      text-shadow: 0 -8px 2px #ddd;
+    }
+    100% {
+      text-shadow: 0 0 5px #ddd;
+    }
+  }
+  @keyframes arrow-light {
+    0% {
+      text-shadow: 0 0 2px #ddd;
+    }
+    25% {
+      text-shadow: 0 -2px 2px #ddd;
+    }
+    50% {
+      text-shadow: 0 -5px 2px #ddd;
+    }
+    75% {
+      text-shadow: 0 -8px 2px #ddd;
+    }
+    100% {
+      text-shadow: 0 0 5px #ddd;
+    }
+  }
+  main #lets-chat {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(154, 138, 120, 0.8);
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px #9a8a78;
+  }
+  main #lets-chat > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  main #lets-chat > div i {
+    font-size: 1.5rem;
+    color: #262626;
+  }
+  main #lets-chat > div span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #262626;
+    display: none;
+  }
+  main #chat-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 0 10px #86796b;
+  }
+  main #chat-box .chat-box-top {
+    width: 100%;
+    height: 15%;
+    padding: 0 1rem;
+    background-color: rgba(92, 84, 74, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main #chat-box .chat-box-top > div p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+  }
+  main #chat-box .chat-box-top > div p:last-child {
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 2px;
+  }
+  main #chat-box .chat-box-top > div p:last-child span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #43b72a;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  main #chat-box .chat-box-top i {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  main #chat-box .chat-box-center {
+    width: 100%;
+    height: 75%;
+    padding: 1rem;
+    background-color: rgba(221, 221, 221, 0.9);
+    overflow-y: auto;
+  }
+  main #chat-box .chat-box-bottom {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  main #chat-box .chat-box-bottom form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #chat-box .chat-box-bottom form #input-text {
+    width: 86%;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  main #chat-box .chat-box-bottom form #input-text::-moz-placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form #input-text:-ms-input-placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form #input-text::placeholder {
+    font-size: 1rem;
+  }
+  main #chat-box .chat-box-bottom form i {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #707070;
+    cursor: pointer;
+  }
+  main #chat-box .chat-box-bottom form > div {
+    width: 7%;
+    height: 100%;
+    position: relative;
+  }
+  main #chat-box .chat-box-bottom form > div #input-file {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+  }
+  main #chat-box .chat-box-bottom form > div #attach {
+    width: 80%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  main #chat-box .chat-box-bottom form > div #send-message-icon {
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+}/*# sourceMappingURL=head-foot.css.map */
