@@ -436,48 +436,36 @@
     font-size: 2rem;
     color: #9a8a78;
   }
+  main #closebar {
+    font-size: 2rem;
+    color: #9a8a78;
+    position: absolute;
+    z-index: 5;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+  }
   main #nav-for-mobil {
     width: 100%;
-    height: 0;
-    background-color: #262626;
-    transition: all 1s;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 5;
-  }
-  main #nav-for-mobil #closebar {
-    float: right;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-right: 2rem;
-    margin-right: 2rem;
-    color: #9a8a78;
-    opacity: 0;
-    transition: all 1s;
-    transition-delay: 0.3s;
-  }
-  main #nav-for-mobil ul {
-    clear: right;
-    opacity: 0;
-    height: 50vh;
-    margin-top: 20vh;
-    transition: all 0.3s;
-    transition-delay: 0.3s;
-    color: white;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    background-color: #262626;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 4;
+    transition: all 0.6s;
   }
-  main #nav-for-mobil ul li {
+  main #nav-for-mobil li {
     width: 50%;
     text-align: center;
     border-bottom: 1px solid #9a8a78;
     margin-top: 1rem;
   }
-  main #nav-for-mobil ul li a {
+  main #nav-for-mobil li a {
     display: block;
     padding: 1rem 0;
     color: white;
@@ -693,15 +681,15 @@
     }
   }
   main #lets-chat {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     background-color: rgba(154, 138, 120, 0.8);
     position: fixed;
-    right: 1rem;
+    right: 2rem;
     bottom: 1rem;
     cursor: pointer;
     box-shadow: 0 0 5px #9a8a78;

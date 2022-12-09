@@ -1,13 +1,11 @@
 function openNav() {
-  document.querySelector("#nav-for-mobil").style.height = "100vh";
-  document.querySelector("#closebar").style.opacity = "1";
-  document.querySelector("#nav-for-mobil-ul").style.opacity = "1";
+  document.querySelector("#nav-for-mobil").style.top = "0";
+  document.querySelector("#closebar").style.display = "block";
 }
 
 function closeNav() {
-  document.querySelector("#nav-for-mobil").style.height = "0";
-  document.querySelector("#closebar").style.opacity = "0";
-  document.querySelector("#nav-for-mobil-ul").style.opacity = "0";
+  document.querySelector("#nav-for-mobil").style.top = "-100vh";
+  document.querySelector("#closebar").style.display = "none";
 }
 
 function openChat() {
