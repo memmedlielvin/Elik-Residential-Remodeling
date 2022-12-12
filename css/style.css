@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: Raleway;
+}
+
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
@@ -681,8 +705,8 @@
     }
   }
   main #lets-chat {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -712,14 +736,12 @@
     display: none;
   }
   main #chat-box {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     border-radius: 5px;
-    display: none;
-    box-shadow: 0 0 10px #86796b;
   }
   main #chat-box .chat-box-top {
     width: 100%;
@@ -756,7 +778,7 @@
   }
   main #chat-box .chat-box-center {
     width: 100%;
-    height: 75%;
+    height: 80%;
     padding: 1rem;
     background-color: rgba(221, 221, 221, 0.9);
     overflow-y: auto;
@@ -832,30 +854,6 @@
     display: none;
   }
 }
-@font-face {
-  font-family: Raleway;
-  src: url(Raleway-Regular.ttf);
-}
-html {
-  scroll-behavior: smooth;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  font-family: Raleway;
-}
-
 @media screen and (min-width: 768px) {
   main {
     width: 100%;
