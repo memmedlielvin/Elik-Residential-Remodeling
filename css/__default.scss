@@ -764,11 +764,11 @@ body {
 
     #chat-box {
       position: fixed;
-      bottom: 0;
+      top: 0;
       left: 0;
 
       width: 100%;
-      height: 93vh;
+      height: 100vh;
       border-radius: 5px;
       display: none;
       box-shadow: 0 0 10px #86796b;
