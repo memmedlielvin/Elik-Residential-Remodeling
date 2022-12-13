@@ -783,7 +783,6 @@ body {
     padding: 1rem;
     background-color: rgba(221, 221, 221, 0.9);
     overflow-y: auto;
-    border: 1px solid green;
   }
   #chat-box .chat-box-center #chat-box-center-inner {
     width: 70%;
@@ -806,7 +805,7 @@ body {
     align-items: center;
   }
   #chat-box .chat-box-bottom form #input-text {
-    width: 78%;
+    width: 80%;
     padding: 10px;
     border: none;
     outline: none;
@@ -841,11 +840,9 @@ body {
     transform: translate(-50%, -50%);
   }
   #chat-box .chat-box-bottom form #send-message-icon {
-    width: 10%;
-    display: flex;
-    align-items: center;
+    width: 9%;
     font-size: 1.2rem;
-    padding: 3px 4px;
+    padding: 3px;
     border-radius: 2px;
     cursor: pointer;
   }

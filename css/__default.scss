@@ -818,7 +818,6 @@ body {
       padding: 1rem;
       background-color: rgba(221, 221, 221, 0.9);
       overflow-y: auto;
-      border: 1px solid green;
 
       #chat-box-center-inner {
         width: 70%;
@@ -842,7 +841,7 @@ body {
         justify-content: space-between;
         align-items: center;
         #input-text {
-          width: 78%;
+          width: 80%;
           padding: 10px;
           border: none;
           outline: none;
@@ -877,11 +876,10 @@ body {
         }
 
         #send-message-icon {
-          width: 10%;
-          display: flex;
-          align-items: center;
+          width: 9%;
+
           font-size: 1.2rem;
-          padding: 3px 4px;
+          padding: 3px;
           border-radius: 2px;
           cursor: pointer;
         }
