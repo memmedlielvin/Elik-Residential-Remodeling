@@ -9,14 +9,12 @@ function closeNav() {
 }
 
 function openChat() {
-  document.querySelector("main").style.display = "none";
   document.querySelector("#chat-box").style.display = "block";
   document.querySelector("#lets-chat").style.visibility = "hidden";
   document.querySelector("#arrow-up").style.display = "none";
 }
 
 function closeChat() {
-  document.querySelector("main").style.display = "block";
   document.querySelector("#chat-box").style.display = "none";
   document.querySelector("#lets-chat").style.visibility = "visible";
   document.querySelector("#arrow-up").style.display = "block";
