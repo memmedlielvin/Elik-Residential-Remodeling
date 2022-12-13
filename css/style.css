@@ -746,7 +746,7 @@ body {
   }
   #chat-box .chat-box-top {
     width: 100%;
-    height: 12%;
+    height: 15%;
     padding: 0 1rem;
     background-color: rgba(92, 84, 74, 0.9);
     display: flex;
@@ -779,26 +779,31 @@ body {
   }
   #chat-box .chat-box-center {
     width: 100%;
-    height: 80%;
+    height: 85%;
     padding: 1rem;
     background-color: rgba(221, 221, 221, 0.9);
     overflow-y: auto;
   }
+  #chat-box .chat-box-center #chat-box-center-inner {
+    width: 70%;
+    padding: 1rem;
+    border-radius: 5px 0 5px 5px;
+    color: white;
+  }
   #chat-box .chat-box-bottom {
     width: 100%;
-    height: 8%;
+    height: 5%;
     background-color: rgba(255, 255, 255, 0.9);
+    padding: 0 10px;
   }
   #chat-box .chat-box-bottom form {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   #chat-box .chat-box-bottom form #input-text {
     width: 86%;
-    height: 100%;
     padding: 1rem;
     border: none;
     outline: none;
@@ -814,45 +819,30 @@ body {
   #chat-box .chat-box-bottom form #input-text::placeholder {
     font-size: 1rem;
   }
-  #chat-box .chat-box-bottom form i {
-    width: 7%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    color: #707070;
-    cursor: pointer;
-  }
   #chat-box .chat-box-bottom form > div {
     width: 7%;
-    height: 100%;
     position: relative;
   }
   #chat-box .chat-box-bottom form > div #input-file {
     width: 100%;
-    height: 100%;
     cursor: pointer;
     opacity: 0;
   }
-  #chat-box .chat-box-bottom form > div #attach {
-    width: 80%;
+  #chat-box .chat-box-bottom form > div .bi-paperclip {
+    color: #707070;
+    font-size: 1.2rem;
     cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #chat-box .chat-box-bottom form > div #send-message-icon {
-    width: 100%;
+  #chat-box .chat-box-bottom form #send-message-icon {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
     cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
   }
 }
 @media screen and (min-width: 768px) {
