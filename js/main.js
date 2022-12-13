@@ -37,3 +37,8 @@ function sendMessage() {
   document.querySelector(".chat-box-center-inner").style.backgroundColor =
     "#6C655C";
 }
+
+function contactScrollmobil() {
+  document.querySelector("#nav-for-mobil").style.top = "-100vh";
+  document.querySelector("#closebar").style.display = "none";
+}

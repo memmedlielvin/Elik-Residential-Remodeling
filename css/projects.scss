@@ -1,0 +1,393 @@
+@import "_default";
+
+@media screen and(min-width: 1024px) {
+  main {
+    #procejts-names {
+      width: 85%;
+
+      margin: auto;
+      display: flex;
+
+      margin-top: 2rem;
+      h1 {
+        width: 25%;
+        text-align: center;
+        border: 1px solid #9a8a78;
+        padding: 8rem 0;
+
+        font-size: 2rem;
+        font-weight: lighter;
+        cursor: pointer;
+        a {
+          color: #9a8a78;
+        }
+      }
+      h1:first-child {
+        background-color: #9a8a78;
+        color: white;
+        cursor: default;
+      }
+    }
+    #nelson-projects {
+      width: 85%;
+      margin: 5rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 50px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2.5rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 55%;
+      }
+      #nelson-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        & > div {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 3rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+
+    #grove-street-projects {
+      width: 85%;
+      margin: 5rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 50px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2.5rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 55%;
+      }
+      #grove-street-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        & > div {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 3rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+
+    #jeffersons-projects {
+      width: 85%;
+      margin: 5rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 50px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2.5rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 55%;
+      }
+      #jeffersons-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        & > div {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 3rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width: 768px) and(max-width: 1024px) {
+  main {
+    #procejts-names {
+      width: 80%;
+
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+
+      margin-top: 2rem;
+      h1 {
+        width: 50%;
+        text-align: center;
+        border: 1px solid #9a8a78;
+        padding: 8rem 0;
+
+        font-size: 2rem;
+        font-weight: lighter;
+        cursor: pointer;
+        a {
+          color: #9a8a78;
+        }
+      }
+      h1:first-child {
+        background-color: #9a8a78;
+        color: white;
+        cursor: default;
+      }
+    }
+    #nelson-projects {
+      width: 80%;
+      margin: 5rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 50px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2.5rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 55%;
+      }
+      #nelson-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        & > div {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 3rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+
+    #grove-street-projects {
+      width: 80%;
+      margin: 5rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 50px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2.5rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 55%;
+      }
+      #grove-street-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        & > div {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 3rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+
+    #jeffersons-projects {
+      width: 80%;
+      margin: 5rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 50px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2.5rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 55%;
+      }
+      #jeffersons-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        & > div {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 3rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 768px) {
+  main {
+    #procejts-names {
+      width: 90%;
+
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+
+      margin-top: 2rem;
+      h1 {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #9a8a78;
+        padding: 2rem 0;
+
+        font-size: 2rem;
+        font-weight: lighter;
+        cursor: pointer;
+        a {
+          color: #9a8a78;
+        }
+      }
+      h1:first-child {
+        background-color: #9a8a78;
+        color: white;
+        cursor: default;
+      }
+    }
+    #nelson-projects {
+      width: 90%;
+      margin: 2rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 20px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 100%;
+      }
+      #nelson-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        & > div {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 1rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+
+    #grove-street-projects {
+      width: 90%;
+      margin: 2rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 20px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 100%;
+      }
+      #grove-street-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        & > div {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 1rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+
+    #jeffersons-projects {
+      width: 90%;
+      margin: 2rem auto;
+      border-bottom: 1px solid #9a8a78;
+      scroll-margin-top: 20px;
+
+      h1 {
+        color: #9a8a78;
+        font-size: 2rem;
+      }
+      p {
+        color: white;
+        margin-top: 1rem;
+        line-height: 24px;
+        width: 100%;
+      }
+      #jeffersons-projects-imgs {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        & > div {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 1rem;
+            border: 1px solid grey;
+            box-shadow: 0 0 5px #ddd;
+          }
+        }
+      }
+    }
+  }
+}

@@ -33,6 +33,50 @@ body {
     #nav-for-mobil {
       display: none;
     }
+    #nav-for-pc {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      h1 {
+        font-weight: bold;
+        a {
+          display: block;
+          color: white;
+          letter-spacing: 2px;
+        }
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            transition: all 0.6s;
+            &:hover {
+              color: #b1aaa2;
+            }
+          }
+        }
+
+        li:first-child {
+          a {
+            color: #b1aaa2;
+          }
+        }
+        li:last-child {
+          a {
+            border: 1px solid white;
+            &:hover {
+              border: 1px solid;
+            }
+          }
+        }
+      }
+    }
 
     footer {
       width: 88%;
