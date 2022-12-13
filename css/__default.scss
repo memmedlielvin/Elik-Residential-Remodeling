@@ -831,6 +831,7 @@ body {
       height: 10%;
       background-color: rgba(255, 255, 255, 0.9);
       padding: 0 10px;
+      border: 1px solid red;
 
       form {
         width: 100%;
@@ -846,6 +847,7 @@ body {
           outline: none;
           overflow-y: auto;
           background-color: rgba(255, 255, 255, 0.4);
+          border: 1px solid red;
 
           &::placeholder {
             font-size: 1rem;
@@ -856,6 +858,7 @@ body {
           width: 7%;
 
           position: relative;
+          border: 1px solid red;
 
           #input-file {
             width: 100%;
@@ -880,6 +883,7 @@ body {
           align-items: center;
           font-size: 1rem;
           cursor: pointer;
+          border: 1px solid red;
         }
       }
     }

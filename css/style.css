@@ -795,6 +795,7 @@ body {
     height: 10%;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 0 10px;
+    border: 1px solid red;
   }
   #chat-box .chat-box-bottom form {
     width: 100%;
@@ -809,6 +810,7 @@ body {
     outline: none;
     overflow-y: auto;
     background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid red;
   }
   #chat-box .chat-box-bottom form #input-text::-moz-placeholder {
     font-size: 1rem;
@@ -822,6 +824,7 @@ body {
   #chat-box .chat-box-bottom form > div {
     width: 7%;
     position: relative;
+    border: 1px solid red;
   }
   #chat-box .chat-box-bottom form > div #input-file {
     width: 100%;
@@ -843,6 +846,7 @@ body {
     align-items: center;
     font-size: 1rem;
     cursor: pointer;
+    border: 1px solid red;
   }
 }
 @media screen and (min-width: 768px) {
