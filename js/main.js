@@ -35,7 +35,7 @@ function inputBlur() {
 
 function sendMessage() {
   var inputVal = document.querySelector("#input-text").value;
-  document.querySelector("#chat-box-center-inner").innerHTML += inputVal;
-  document.querySelector("#chat-box-center-inner").style.backgroundColor =
+  document.querySelector(".chat-box-center-inner").innerHTML += inputVal;
+  document.querySelector(".chat-box-center-inner").style.backgroundColor =
     "#6C655C";
 }
