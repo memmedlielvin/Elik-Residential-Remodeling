@@ -26,15 +26,11 @@ function inputFocus() {
   document.querySelector("#send-message-icon").style.backgroundColor =
     "#6C655C";
   document.querySelector("#send-message-icon").style.color = "white";
-  document.querySelector("#send-message-icon").style.padding = "3px";
-  document.querySelector("#send-message-icon").style.borderRadius = "2px";
 }
 
 function inputBlur() {
   document.querySelector("#send-message-icon").style.backgroundColor = "white";
   document.querySelector("#send-message-icon").style.color = "black";
-  document.querySelector("#send-message-icon").style.padding = "0";
-  document.querySelector("#send-message-icon").style.borderRadius = "0";
 }
 
 function sendMessage() {
